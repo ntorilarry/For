@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import "../styles/hero.css";
-import Lady from "../assets/lady.png";
+import Lady from "../assets/lady2.png";
 import Logo from "../assets/logo_FOR..png";
 import Craftmanship from "./craftmanship";
 import BigBeauty from "./bigBeauty";
