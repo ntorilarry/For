@@ -1,0 +1,22 @@
+.footbg {
+  background-image: url("../assets/footbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.forLogo {
+    font-size: 25rem;
+    color: rgba(255, 255, 255, 0.452);
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .forLogo {
+        font-size: 14rem;
+    }
+}

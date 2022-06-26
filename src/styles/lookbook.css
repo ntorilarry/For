@@ -11,6 +11,7 @@
   color: #853818;
   font-size: 15rem;
   font-weight: 400;
+  font-family: "Open Sans", sans-serif;
 }
 .lookhead {
   font-family: "Open Sans", sans-serif;
@@ -82,4 +83,19 @@
   .button-59 {
     min-width: 170px;
   }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .lookgood-head {
+    font-size: 3rem;
+  }
+ 
+.lookhead {
+  font-size: 3rem;
+  text-align: center;
+}
+.bookhead{
+text-align: center;
+}
 }

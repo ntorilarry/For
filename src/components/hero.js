@@ -8,6 +8,8 @@ import Craftmanship from "./craftmanship";
 import BigBeauty from "./bigBeauty";
 import Testimonial from "./testimonials";
 import Lookbook from "./lookbook";
+import Testimony from "./testimony";
+import Footer from "./footer";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -129,6 +131,8 @@ function Hero() {
               <BigBeauty />
               <Testimonial />
               <Lookbook />
+              <Testimony/>
+              <Footer/>
             </div>
           </div>
         </div>
