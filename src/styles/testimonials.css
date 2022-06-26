@@ -1,0 +1,10 @@
+.testim {
+  font-family: "Open Sans", sans-serif;
+}
+
+.test {
+  background-image: url("../assets/Group\ 16.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

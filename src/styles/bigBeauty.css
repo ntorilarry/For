@@ -1,0 +1,27 @@
+.headCraft{
+    font-family: 'Open Sans', sans-serif;
+}
+.beauty{
+  font-size: 10rem;
+    font-family: 'Playfair Display', serif;
+    line-height: 1;
+    padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .beauty{
+      font-size: 6rem;
+    }
+    }
+
+
+ @media only screen and (min-width: 1023px) {
+        .beauty{
+          text-align: center;
+          padding-bottom: 3rem;
+        }
+        .headCraft{
+            text-align: center;
+        }
+
+    }

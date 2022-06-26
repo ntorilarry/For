@@ -1,0 +1,23 @@
+.craft-head {
+  font-family: "Playfair Display", serif;
+  font-size: 80px;
+  line-height: 1;
+  color: #713c25;
+  font-weight: 300;
+}
+.craft-subtext {
+  font-family: "Open Sans", sans-serif;
+}
+
+.headCraft {
+  font-family: "Open Sans", sans-serif;
+}
+
+@media only screen and (min-width: 1024px) {
+  .model-img {
+    background-image: url("../assets/shutterstock_1749300185\ copy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

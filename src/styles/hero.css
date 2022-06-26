@@ -1,0 +1,99 @@
+.bgg {
+  background-image: url("../assets/Bg.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroText {
+  font-family: "Playfair Display", serif;
+  color: #713c25;
+}
+
+.heroEvery {
+  color: #f7e7ce;
+  font-size: 10rem;
+  font-weight: 100;
+}
+.heroWoman {
+  font-size: 20rem;
+  font-family: "Playfair Display", serif;
+  color: #be6c42;
+}
+
+#scroll-container {
+  background-color: #be6c42;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #f7e7ce;
+  font-family: "Playfair Display", serif;
+  padding: 20px;
+}
+
+#scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .heroWoman {
+    margin-top: -140px;
+  }
+  .ladiesIMG {
+    margin-top: -350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .heroWoman {
+    font-size: 90px;
+  }
+
+  .heroEvery {
+    font-size: 80px;
+  }
+  .heroCont {
+    margin-top: 50px;
+  }
+}
