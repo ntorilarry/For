@@ -4,7 +4,7 @@ import "../styles/bigBeauty.css";
 function BigBeauty() {
   return (
     <div>
-      <section class="text-[#713C25] body-font">
+      <section class="text-[#713C25] body-font pb-10">
         <div class="container px-5 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
             <h2 class="text-sm title-font text-gray-500 tracking-widest headCraft">
@@ -36,7 +36,7 @@ function BigBeauty() {
                 </div>
                 <div class="flex flex-col items-center text-center justify-center">
                   <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
-                    Phoebe Caulfield
+                    Crystal Martin
                   </h2>
                   <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
                   <p class="text-base">
@@ -55,7 +55,7 @@ function BigBeauty() {
                   like Marilyn Monroe. Fashion was still very separate and
                   models were thin.
                 </p>
-                <a class="text-indigo-500 inline-flex items-center">
+                <a href="https://www.nytimes.com/2016/07/07/fashion/plus-size-models-beauty.html" class="text-indigo-500 inline-flex items-center">
                   Learn More
                   <svg
                     fill="none"

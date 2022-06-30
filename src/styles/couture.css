@@ -1,0 +1,35 @@
+.couture-head {
+  font-family: "Playfair Display", serif;
+  color: #713c25;
+}
+.couture-subhead {
+  font-family: "Open Sans", sans-serif;
+  font-size: 6rem;
+  font-weight: 500;
+  color: #f7e7ce;
+}
+.cout-head {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10rem;
+  color: #be6c42;
+}
+
+.couttext {
+  font-family: "Open Sans", sans-serif;
+  color: #713c25;
+}
+
+@media only screen and (max-width: 600px) {
+  .couture-subhead {
+    font-size: 3rem;
+  }
+  .cout-head {
+    font-size: 4rem;
+  }
+  .cout-con {
+    line-height: 20px;
+  }
+  .couttext {
+    margin-top: 20px;
+  }
+}

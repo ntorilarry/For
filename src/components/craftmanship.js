@@ -35,7 +35,7 @@ function Craftmanship() {
         </div>
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-24 mx-auto">
-            <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+            <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-[#713C25] sm:flex-row flex-col">
               <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
                 <svg
                   fill="none"
@@ -51,13 +51,12 @@ function Craftmanship() {
               </div>
               <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                 <h2 class="text-[#713C25] text-lg title-font font-medium mb-2">
-                  Shooting Stars
+                  The Power Of Feminine Fashion
                 </h2>
                 <p class="leading-relaxed text-base text-[#713C25] craft-subtext">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                Feminist Fashion Continues To Empower
                 </p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center">
+                <a href="https://www.fashionabc.org/feminist-fashion-continues-empower/" class="mt-3 text-indigo-500 inline-flex items-center">
                   Learn More
                   <svg
                     fill="none"
@@ -76,13 +75,12 @@ function Craftmanship() {
             <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-[#713C25] sm:flex-row flex-col">
               <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                 <h2 class="text-[#713C25] text-lg title-font font-medium mb-2">
-                  The Catalyzer
+                 A Female Culture
                 </h2>
                 <p class="leading-relaxed text-base text-[#713C25] craft-subtext">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                The Present Is Female: The Designers Behind a Fashion Revolution
                 </p>
-                <a class="mt-3 text-indigo-500 inline-flex items-center">
+                <a href="https://www.vogue.com/article/female-designers-fashion-revolution-vogue-august-2019-issue" class="mt-3 text-indigo-500 inline-flex items-center">
                   Learn More
                   <svg
                     fill="none"

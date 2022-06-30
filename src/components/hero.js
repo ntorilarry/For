@@ -10,6 +10,7 @@ import Testimonial from "./testimonials";
 import Lookbook from "./lookbook";
 import Testimony from "./testimony";
 import Footer from "./footer";
+import Couture from "./couture";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -131,6 +132,7 @@ function Hero() {
               <BigBeauty />
               <Testimonial />
               <Lookbook />
+              <Couture/>
               <Testimony/>
               <Footer/>
             </div>
