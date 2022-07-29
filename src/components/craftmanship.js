@@ -4,7 +4,7 @@ import "../styles/craftmanship.css";
 
 function Craftmanship() {
   return (
-    <div className="relative bg-[#E6D9BF]">
+    <div className="relative bg-[#E6D9BF]" id="craftmanship">
       <div className="lg:absolute lg:inset-0">
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 model-img">
           {/* <img

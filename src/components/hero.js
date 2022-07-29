@@ -13,10 +13,10 @@ import Footer from "./footer";
 import Couture from "./couture";
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Craftmanship ", href: "/#craftmanship" },
+  { name: "Big Beauty", href: "/#bigbeauty" },
+  { name: "Look Good", href: "/#lookgood" },
+  { name: "Couture", href: "/#couture" },
 ];
 
 function Hero() {
@@ -109,6 +109,7 @@ function Hero() {
                 <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl flex justify-center heroText">
                   <span>For.</span> <span className="heroEvery">every</span>
                 </h1>
+                <a className="mt-6 button-59 z-90" href="https://whateverywomanneeds.com/dress-like-a-leading-lady/">Learn More</a>
                 <h1 className="heroWoman">Woman</h1>
               </div>
             </div>
@@ -132,9 +133,9 @@ function Hero() {
               <BigBeauty />
               <Testimonial />
               <Lookbook />
-              <Couture/>
-              <Testimony/>
-              <Footer/>
+              <Couture />
+              <Testimony />
+              <Footer />
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import "../styles/lookbook.css";
 
 function Lookbook() {
   return (
-    <div>
+    <div id="lookgood">
       <div className="lbook">
         <div className="mx-auto max-w-7xl">
           <div className="text-center looking-head">
@@ -15,7 +15,7 @@ function Lookbook() {
               <span className="bookhead">For.</span>{" "}
               <span className="bookspan">you darling</span>
             </h1>
-            <button className="mt-6 button-59">Check out our Lookbook</button>
+            <button className="mt-6 button-59"><a href="https://blog.flipsnack.com/10-fashion-lookbook-examples-for-design-inspiration/">Check out our Lookbook</a></button>
           </div>
         </div>
       </div>
