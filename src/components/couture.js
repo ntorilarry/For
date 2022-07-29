@@ -14,53 +14,51 @@ class Couture extends Component {
     items: [
       {
         id: 1,
-        title: "Olonka Belly Fresh Pouched Sausages",
         imageUrl:
           "https://images.unsplash.com/photo-1544717304-a2db4a7b16ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
       },
       {
         id: 2,
-        title: "Akorfa spicy veggies",
         imageUrl:
           "https://images.unsplash.com/photo-1503104834685-7205e8607eb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       },
       {
         id: 3,
-        title: "Gold Coast Fashion Flavors",
         imageUrl:
           "https://images.unsplash.com/photo-1600484732755-b8246d320dda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       },
       {
         id: 4,
-        title: "Hot Makola Soup Glaze",
         imageUrl:
           "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       },
       {
         id: 5,
-        title: "Legon Confidence Goat Mushroom",
         imageUrl:
           "https://images.unsplash.com/photo-1577746838851-816a43ca8733?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       },
       {
         id: 6,
-        title: "Accra Beef Traffic Jam",
-        imageUrl: "https://images.unsplash.com/photo-1643185539104-3622eb1f0ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        imageUrl:
+          "https://images.unsplash.com/photo-1643185539104-3622eb1f0ff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       },
       {
         id: 7,
-        title: "Asesewa Market Signature Egg Loaf",
-        imageUrl: "https://images.unsplash.com/photo-1525304937537-4d586f394674?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+
+        imageUrl:
+          "https://images.unsplash.com/photo-1525304937537-4d586f394674?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       },
       {
         id: 8,
-        title: "Biggest Stick in GH Mushroom Stir",
-        imageUrl: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+
+        imageUrl:
+          "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       },
       {
         id: 9,
-        title: "Trinity crunching shrimp",
-        imageUrl: "https://images.unsplash.com/photo-1600484732755-b8246d320dda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+
+        imageUrl:
+          "https://images.unsplash.com/photo-1600484732755-b8246d320dda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       },
     ],
   };
@@ -92,7 +90,7 @@ class Couture extends Component {
                     src={item.imageUrl}
                     alt=""
                   />
-                  <p className="text-center"> {item.title}</p>
+                  {/* <p className="text-center"> {item.title}</p> */}
                 </div>
               ))}
             </Carousel>
